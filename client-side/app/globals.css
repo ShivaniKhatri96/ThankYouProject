@@ -21,10 +21,14 @@ body {
 
 body {
   color: var(--font-color);
-  background: white;
+  background-image: url('../public/assets/blue-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 a {
   color: inherit;
   text-decoration: none;
 }
+
