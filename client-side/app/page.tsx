@@ -18,7 +18,7 @@ export default function Home() {
     <main>
       Hello!
       {people.map((person:any) => (
-        <div>{person.name}</div>
+        <div>{person.name} - {person.occupation}</div>
       ))}
     </main>
   );
