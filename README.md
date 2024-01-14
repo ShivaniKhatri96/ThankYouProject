@@ -10,13 +10,13 @@
 
 ### Backend
 - `Express`
-- `nodemon`
-- `cors`
+- `Nodemon`
+- `Cors`
 
 ### Design
 - `Figma`
 > I am using the figma design I created a while ago for this project
-![Figma design](public/assets/figma-design.jpg)
+![Figma design](/client-side/public/assets/figma-design.jpg)
 
 
 ### Completed
