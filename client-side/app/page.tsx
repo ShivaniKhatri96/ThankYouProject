@@ -15,10 +15,21 @@ export default function Home() {
   }, []);
 
   return (
-    <main>
-      Hello!
-      {people.map((person:any) => (
-        <div>{person.name} - {person.occupation}</div>
+    <main className={styles.pageLayout}>
+      <div className={styles.card}>
+        <img src="/assets/thankyou-image.jpg" alt="Thank you card"
+          className={styles.image}/>
+      </div>
+      <div>
+        A huge Thank you to everyone who has helped me in my journey of becoming
+        a Frontend Developer. You have inspired me to learn, grow and be more
+        confident. I will forever be grateful for it.
+      </div>
+
+      {people.map((person: any) => (
+        <div key={person.name}>
+          {person.name} - {person.occupation}
+        </div>
       ))}
     </main>
   );
