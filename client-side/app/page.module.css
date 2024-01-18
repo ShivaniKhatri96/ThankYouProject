@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
 .pageLayout {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 3rem;
+  gap: 1.5rem;
+  padding: 4rem 8rem;
 }
 .card {
   background-color: var(--white);
@@ -19,6 +22,16 @@
  width: 100%;
  height: 100%;
  border-radius: 4px;
+}
+
+.detail {
+  padding: 1.5rem;
+  text-align: center;
+  background-color: rgba(255,255,255,0.5);
+  width: 100%;
+  border-radius: 4px;
+  font-family:'Satisfy', cursive;
+  font-size: 26px;
 }
 
 
