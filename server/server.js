@@ -6,9 +6,15 @@ const PORT = 8000;
 app.use(cors())
 app.get('/api/people', (req, res) => {
     const people = [
-        {name: 'John', occupation: 'Software Engineer'},
-        {name: 'Jane', occupation: 'Data Scientist'},
-        {name: 'Shiva', occupation: 'Backend Developer'},
+        {name: 'Dante Solis', occupation: 'Coach BeCode'},
+        {name: 'Shiva Khatri', occupation: 'Backend Developer'},
+        {name: 'Daniel Diaz', occupation: 'Backend Developer'},
+        {name: 'Alisan Cavus', occupation: 'Fullstack Developer'},
+        {name: 'Ivan D\'Andrea', occupation: 'Backend Developer'},
+        {name: 'Florian', occupation: 'Co-founder Weavely.ai'},
+        {name: 'Jesse', occupation: 'Co-founder Weavely.ai'},
+        {name: 'Jeremy Van Mullem', occupation: 'Founder Relieve Furniture'},
+        {name: 'Patrick Downie', occupation: 'Co-founder Relieve Furniture'},   
     ];
 
     res.json(people);
