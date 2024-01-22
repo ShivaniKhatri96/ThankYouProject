@@ -15,6 +15,8 @@ app.get('/api/people', (req, res) => {
         {name: 'Jesse', occupation: 'Co-founder Weavely.ai'},
         {name: 'Jeremy Van Mullem', occupation: 'Founder Relieve Furniture'},
         {name: 'Patrick Downie', occupation: 'Co-founder Relieve Furniture'},   
+        {name: 'Mohan Khatri', occupation: 'Dad'},
+        {name: 'Durga Khatri', occupation: 'Mom'},
     ];
 
     res.json(people);
