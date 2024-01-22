@@ -1,7 +1,7 @@
 # Thank You Project
-**Just a small project to show my gratitute to people who have helped me in my journey of being a Frontend Developer**
+**It's a small project to show my gratitute to people who have helped me in my journey of being a Frontend Developer**
 
-## Tools used
+## Tools used for this Full-stack project
 
 ### Frontend
 - `Next.js`
