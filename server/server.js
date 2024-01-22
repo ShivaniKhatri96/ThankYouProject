@@ -1,9 +1,14 @@
+//express is the web application framework for Node.js
+// simplifies the process of creating web servers and handling HTTP requests and responses
 const express = require('express');
 const app = express();
+//cors: Cross-Origin Resource Sharing (CORS) using the `cors` middleware
+// It allows or restricts cross-origin HTTP requests
 const cors = require('cors');
-const PORT = 8000;
+const PORT = 8000; // port number on which the server will listern for incoming requests
 
 app.use(cors())
+// app.get defines a route for handling HTTP GET requests
 app.get('/api/people', (req, res) => {
     const people = [
         {name: 'Dante Solis', occupation: 'Coach BeCode'},
@@ -21,7 +26,7 @@ app.get('/api/people', (req, res) => {
 
     res.json(people);
 })
-
+//listens for incoming requests on the specified port
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 })
