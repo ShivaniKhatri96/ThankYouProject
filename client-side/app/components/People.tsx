@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
+import styles from "./People.module.css";
 
 const People = () => {
   const [people, setPeople] = useState([]);
@@ -14,8 +15,9 @@ const People = () => {
   return (
     <>
       {people.map((person: any) => (
-        <div key={person.name}>
-          {person.name} - {person.occupation}
+        <div key={person.name} className={styles.card}>
+          <div>{person.name}</div>
+          <div>{person.occupation}</div>
         </div>
       ))}
     </>
