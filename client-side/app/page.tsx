@@ -1,7 +1,5 @@
 "use client";
-import Image from "next/image";
 import styles from "./page.module.css";
-import { useEffect, useState } from "react";
 import People from "./components/People";
 
 export default function Home() {
