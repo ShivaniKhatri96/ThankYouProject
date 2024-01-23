@@ -25,6 +25,6 @@
 - Data recieved from the backend to use in the Frontend
 - Figma design applied in the Frontend with some minor changes
 - Responsive web design applied using media query and flexbox
-- Project deployed using Vercel
+
 
 
