@@ -1,7 +1,6 @@
 # Thank You Project
 **It's a small project to show my gratitute to people who have helped me in my journey of being a Frontend Developer**
-> I wanted this project to have a postcard like format because postcard usually give you warm fuzzy feeling
-> I will be showcasing my strengths in coding in upcoming projects. So stay tuned!
+> I wanted this project to have a postcard like format because postcard usually give you warm fuzzy feeling. I will be showcasing my strengths in coding in upcoming projects. So stay tuned!
 
 ## Tools used for this Full-stack project
 
