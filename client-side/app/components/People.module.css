@@ -14,8 +14,13 @@
   }
 }
 
-.title {
+.card .title {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 1.2rem;
+}
+
+.card .description {
+  text-transform: capitalize;
+  font-size: 1rem;
 }

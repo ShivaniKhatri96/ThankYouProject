@@ -17,7 +17,7 @@ const People = () => {
       {people.map((person: any) => (
         <div key={person.name} className={styles.card}>
           <div className={styles.title}>{person.name}</div>
-          <div>{person.occupation}</div>
+          <div className={styles.description}>{person.occupation}</div>
         </div>
       ))}
     </>
