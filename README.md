@@ -23,8 +23,7 @@
 
 ### Completed
 - Data recieved from the backend to use in the Frontend
+- Figma design applied in the Frontend with some minor changes
+- Responsive web design applied using media query and flexbox
 
-### Future goals
-- Implement the Figma design
-- Make sure it has responsive layout
-- Utilize a database
+

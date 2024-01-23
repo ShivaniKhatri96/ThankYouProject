@@ -1,9 +1,13 @@
 "use client";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./People.module.css";
 
-const People = () => {
-  const [people, setPeople] = useState([]);
+interface Person {
+  title: string;
+  occupation: string;
+}
+const People: React.FC = () => {
+  const [people, setPeople] = useState<Person[]>([]);
 
   useEffect(() => {
     //fetching data from Express API endpoint
@@ -14,7 +18,7 @@ const People = () => {
   }, []);
   return (
     <>
-      {people.map((person: any) => (
+      {people?.map((person: any) => (
         <div key={person.name} className={styles.card}>
           <div className={styles.title}>{person.name}</div>
           <div className={styles.description}>{person.occupation}</div>
