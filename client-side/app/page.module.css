@@ -35,6 +35,12 @@
  height: 100%;
  border-radius: 4px;
 }
+ /* Media query for smaller screens */
+ @media (max-width: 600px) {
+  .image {
+  content: url('/assets/vertical.jpg');
+  }
+}
 
 .detail {
   padding: 1.5rem;
